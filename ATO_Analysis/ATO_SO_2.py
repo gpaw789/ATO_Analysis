@@ -39,14 +39,14 @@ def ATO_SO_2(df):
         y = inc_all_male,
         name = "Male",
         hoverinfo="x+y",
-        showlegend=False,
+        showlegend=True,
     )
     trace_female = go.Bar(
         x = age_groups,
         y = inc_all_fem,
         name = "Female",
         hoverinfo="x+y",
-        showlegend=False,
+        showlegend=True,
     )
 
     data = [trace_male, trace_female]
